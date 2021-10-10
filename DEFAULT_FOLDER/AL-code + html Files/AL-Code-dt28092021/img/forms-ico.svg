@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_296" data-name="Rectangle 296" width="40" height="40" rx="10" transform="translate(168.572 435.572)" fill="#873a8e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-168.572 -435.572)" clip-path="url(#clip-path)">
+    <path id="icons8-google-forms" d="M35.64,11.775,25.854,1.988a.85.85,0,0,0-.6-.249H9.928A2.971,2.971,0,0,0,6.957,4.7V37.4a3.5,3.5,0,0,0,3.5,3.487H32.389a3.5,3.5,0,0,0,3.5-3.487V12.376A.85.85,0,0,0,35.64,11.775ZM14.615,31.523a.851.851,0,1,1,.851-.851A.853.853,0,0,1,14.615,31.523Zm0-4.255a.851.851,0,1,1,.851-.851A.853.853,0,0,1,14.615,27.268Zm0-4.255a.851.851,0,1,1,.851-.851A.853.853,0,0,1,14.615,23.013Zm13.615,8.51H18.019v-1.7H28.231Zm0-4.255H18.019v-1.7H28.231Zm0-4.255H18.019v-1.7H28.231ZM27.1,11.951a1.419,1.419,0,0,1-1.419-1.419V4.219l7.732,7.732Z" transform="translate(167.149 434.261)" fill="#873a8e"/>
+  </g>
+</svg>

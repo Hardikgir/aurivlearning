@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 13" width="37" height="13">
+	<title>New Project</title>
+	<defs>
+		<image width="22" height="13" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMS42NSIgaGVpZ2h0PSIxMi45NDciIHZpZXdCb3g9IjAgMCAyMS42NSAxMi45NDciPg0KICA8cGF0aCBpZD0iUGF0aF81NzY5IiBkYXRhLW5hbWU9IlBhdGggNTc2OSIgZD0iTS0xMDI1Mi4yODgtMjg3Ni45MDhsOC43LDguNyw4LjctOC43IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMDI1NC40MDkgMjg3OS4wMjkpIiBmaWxsPSJub25lIiBzdHJva2U9IiM3MDcwNzAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIzIi8+DQo8L3N2Zz4NCg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Path 5769" href="#img1" transform="matrix(0.773,0,0,0.769,7,2)"/>
+</svg>

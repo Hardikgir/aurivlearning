@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Time Management</title>
+  <!-- Basic Page Needs -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/icon" href="#">
+   
+  <!-- Main structure css file -->
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\responsive.css">
+</head>
+<body>
+
+<div class="dash wrapper d-flex align-items-stretch">
+	<nav id="sidebar">
+		<a href="#" class="logo text-center mb-3" name="logo">
+			<img src="img/logo.svg">
+		</a>
+		<ul class="list-unstyled components mb-5">
+			<a href="javascript:void(0)" class="closebtn d-none">&times;</a>
+			<li>
+				<a href="index.html"><img src="img/dash-ico.svg" class="mr-2" alt="Dash Ico"> Dashboard</a>
+			</li>
+			<li>
+				<div class="dropdown">
+				  <a href="#" data-toggle="dropdown"><img src="img/banner-ico.svg" class="mr-2" alt="Banner Ico">Banner Groups<i class="far fa-chevron-down drop-icon"></i></a>
+				  <div class="dropdown-menu">
+				    <ul>
+						<li>
+						  <a href="#" class="dropdown-item">Item 1 </a>
+						</li>
+						<li>
+						  <a href="#" class="dropdown-item">Item 2</a>
+						</li>
+						<li>
+						  <a href="#" class="dropdown-item">Item 3</a>
+						</li>
+						<li>
+						  <a href="#" class="dropdown-item">Item 4</a>
+						</li>
+					</ul>
+				  </div>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img src="img/discount-ico.svg" class="mr-2" alt="Discount Ico">Discounts</a>
+			</li>
+			<li>
+				<div class="dropdown">
+				  <a href="#" data-toggle="dropdown"><img src="img/banner-ico.svg" class="mr-2" alt="Banner Ico">Rider Management<i class="far fa-chevron-down drop-icon"></i></a>
+				  <div class="dropdown-menu">
+				    <ul>
+							<li>
+							  <a href="rider-management.html" class="dropdown-item">Rider Management</a>
+							</li>
+							<li>
+							  <a href="add-rider.html" class="dropdown-item">Add New Rider</a>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			</li>
+			<li>
+				<div class="dropdown">
+				  <a href="#" data-toggle="dropdown"><img src="img/schedule-ico.svg" class="mr-2" alt="Banner Ico">Rider Schedule<i class="far fa-chevron-down drop-icon"></i></a>
+				  <div class="dropdown-menu">
+				    <ul>
+							<li>
+							  <a href="rider-schedule.html" class="dropdown-item">Rider Schedule</a>
+							</li>
+							<li>
+							  <a href="add-rider-schedule.html" class="dropdown-item">Add Rider Schedule</a>
+							</li>
+						</ul>
+				  </div>
+				</div>
+			</li>
+			<li class="active">
+				<div class="dropdown">
+				  <a href="#" data-toggle="dropdown"><img src="img/schedule-ico.svg" class="mr-2" alt="Banner Ico">Rider Time Management<i class="far fa-chevron-down drop-icon"></i></a>
+				  <div class="dropdown-menu">
+				    <ul>
+						<li>
+						  <a href="time-management.html" class="dropdown-item">Rider Time Management</a>
+						</li>
+						<li>
+						  <a href="add-time-slot.html" class="dropdown-item">Add Time Slot</a>
+						</li>
+					</ul>
+				  </div>
+				</div>
+			</li>
+			<li>
+				<a href="#"><img src="img/notify-ico.svg" class="mr-2">Rider Notifications</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/partner-ico.svg" class="mr-2">Partner Management</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/account-ico.svg" class="mr-2">Bank account section</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/section-ico.svg" class="mr-2">Other section</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/rider-ico.svg" class="mr-2">Partner Messaging</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/notify-ico.svg" class="mr-2">Partner Notifications</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/rider-ico.svg" class="mr-2">Category Management</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/partner-ico.svg" class="mr-2">Sub-category Management</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/banner-ico.svg" class="mr-2" alt="Banner Ico">Reviews and Ratings</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/section-ico.svg" class="mr-2">Service Area</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/notify-ico.svg" class="mr-2">Service Distance</a>
+			</li>
+			<li>
+				<a href="#"><img src="img/notify-ico.svg" class="mr-2">Locations</a>
+			</li>	
+			<li>
+				<a href="#"><img src="img/rider-ico.svg" class="mr-2">Contact Settings</a>
+			</li>	
+			<li>
+				<a href="#"><img src="img/notify-ico.svg" class="mr-2">GIVE User Notifications</a>
+			</li>	
+			<li>
+				<a href="#"><img src="img/notify-ico.svg" class="mr-2">Reports</a>
+			</li>	
+		</ul>
+	</nav>
+
+
+ 	<div id="content" class="position-relative">
+		<div class="pt-4 pb-lg-4 mb-3 position-relative">
+			<div class="container-fluid">
+				<div class="row align-items-center position-relative">
+					<button type="button" id="sidebarCollapse" class="btn" name="collapsebtn">
+						<i class="fa fa-bars"></i>
+					</button>
+					<div class="title-set col-lg-6 mb-4 mb-lg-0 order-2 order-lg-1">
+						<h3 class="mb-1 font-weight-bold theme-color">Hello, <span class="sec-color">Jame</span></h3>
+						<span>Lorem Ipsum is simply dummy text of the printing</span>
+					</div>
+					<div class="col-lg-6 text-right order-1 order-lg-2 mb-5 mb-lg-0">
+						 <ul class="navbar-right list-inline float-right mb-0 d-flex">
+						 	<!-- message -->
+              <li class="notification-list list-inline-item d-none d-md-block">
+                  <div class="notify-btn">
+                  	<select class="form-control border-0" name="language">
+                  		<option value="english">English</option>
+                  		<option value="arabic">Arabic</option>
+                  	</select>
+                  </div>
+              </li>
+              <!-- notification -->
+              <li class="notification-list list-inline-item">
+                  <div class="notify-btn">
+                  	<a href="#"><i class="far fa-bell"></i>
+                  	<span class="badge badge-pill badge-danger noti-icon-badge"></span></a>
+                  </div>
+              </li>
+							<li class="dropdown notification-list list-inline-item">
+                  <div class="dropdown notification-list nav-pro-img">
+	                  	<div class="notify-btn">
+	                      <a class="dropdown-toggle nav-link arrow-none nav-user d-flex align-items-center p-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+	                          <div>
+	                          	<img src="img/user.jpg" alt="user" class="mr-3">
+	                          </div>
+	                          <div class="text-left">
+	                          	<h6 class="m-0 username">John Doe<i class="fal fa-chevron-down ml-2"></i></h6>
+	                          </div>
+	                      </a>
+	                      <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+	                          <!-- item-->
+	                          <a class="dropdown-item" href="#"><i class="mdi mdi-account-circle"></i> Profile</a>
+	                          <a class="dropdown-item d-block" href="#">Settings</a>
+	                          <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power text-danger"></i> Logout</a>
+	                      </div>
+	                    </div>
+                  </div>
+              </li>	
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Section -->
+		<div class="container-fluid mb-lg-5">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="row align-items-center mb-4">
+						<div class="col-md-6 mb-3 mb-md-0">
+							<h4 class="mb-0 page-title text-uppercase"><span class="vline"></span>Rider Time Management</h4>
+						</div>
+						<div class="col-md-6">
+							<ul class="breadcrumbs font-weight-bold d-flex justify-content-md-end">
+								<li><a href="index.html">Dashboard </a></li>
+								<li>Rider Time Management</li>	
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 mb-4">
+				    <div class="card-block p-4">
+				    	<div class="row align-items-center flex-column-reverse flex-md-row">
+				    		<div class="col-xl-8 col-md-4 col-12 mb-3 mb-md-0">
+				    			<a href="add-time-slot.html" class="theme-btn"><i class="fal fa-plus mr-2"></i> Add Time Slot </a>
+				    		</div>
+				    		<div class="col-xl-4 col-md-8 col-12">
+				    			<form class="filter">
+				    				<div class="row">
+				    					<div class="col-9">
+				                <div class="form-group input-group mb-0 border shadow-none input-group-sm">
+											    <input type="text" name="keyword" placeholder="Search for..." class="form-control shadow-none border-0">
+											    <div class="input-group-prepend">
+											       <span class="input-group-text border-0 bg-transparent">
+										       		<button type="submit" class="bg-transparent border-0"><i class="far fa-search"></i></button>
+										      	 </span>
+											    </div>
+											  </div>
+											</div>
+											<div class="col-3 mb-3 mb-md-0 text-right">
+												<a href="#" class="filter-btn"><img src="img/sorting-ico.svg"></a>
+											</div>
+				    				</div>
+				    			</form>
+				    		</div>
+				    	</div>
+				    	<hr>
+							<div class="table-responsive">
+					    	<table class="table table-borderless table-striped">
+					        <thead>
+					            <tr>
+				                <th scope="col">No.</th>
+				                <th scope="col">Service Area </th>
+				                <th scope="col">Date</th>
+				                <th scope="col">From Time</th>
+				                <th scope="col">To Time</th>
+				                <th scope="col">Total Slots</th>
+				                <th scope="col">Reserved Slots</th>
+				                <th scope="col">Open Slots</th>
+				                <th scope="col">Status</th>
+				              </tr>
+					         </thead>
+					        <tbody>
+				            <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+			              <tr>
+			                <td>01</td>
+			                <td>Service Area Name</td>
+			                <td>24-12-2019</td>
+			                <td>09:00 AM</td>
+			                <td>04:00 PM</td>
+			                <td>03</td>
+			                <td>02</td>
+			                <td>02</td>
+			                <td class="text-success">Active</td>
+			              </tr>
+				          </tbody>
+					      </table>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer-bar" class="container-fluid">
+			<div class="bottom-footer pt-2 pb-3">
+				<div class="row">
+					<div class="col-lg-8 text-center text-lg-left">
+						<span>©All Rights Reserved Copy Rights of D Company Co., LTD 2021</span>
+					</div>
+					<div class="col-lg-4 text-center text-lg-right">
+						<span>Powered by D Company Co., LTD</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/font-awesome-5-pro.js"></script>
+
+</body>
+</html>

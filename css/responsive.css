@@ -1,0 +1,231 @@
+@media(min-width: 1600px){
+    .container{
+        max-width:1500px!important;
+    }
+    .container-fluid{
+	    max-width: 1500px;
+	}
+}
+@media(min-width:  1300px){
+	 .container{
+        max-width:1280px;
+    }
+}
+@media(min-width:  1200px){
+	.modal-dialog-centered{
+		max-width: 800px;
+	}
+	.description,.feedback{
+	    white-space: pre-wrap!important;
+	    min-width: 150px;
+	}
+}
+@media(max-width: 1200px){
+	#sidebar{
+		position: fixed;
+	    left: -320px;
+	    top: 0;
+	    margin: 0!important;
+	    max-width: 320px;
+	    min-width: 320px;
+	    height: 100%;
+	    transition: .4s;
+	}
+	#sidebar.active{
+		left: 0;
+	}
+	a.closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    font-size: 26px;
+	    background: #ccad72;
+	    width: 30px;
+	    height: 30px;
+	    display: flex!important;
+	    align-items: center;
+	    justify-content: center;
+	    color: #fff;
+	}
+	button#sidebarCollapse {
+	    background: #ccad72;
+	    border: none;
+	    height: 42px;
+	    width: 42px;
+	    border-radius: 9px;
+	    min-width: 42px;
+	    font-size: 22px;
+	    padding: 0;
+	}
+	.page-title{
+		font-size: 20px;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1200px){
+	header ul.navbar-nav li+li {
+	    margin: 0px 0 0 10px;
+	}
+	.navbar-brand img {
+	    max-height: 30px;
+	} 
+	header .navbar-expand-lg .navbar-nav .nav-link{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 991px){
+	.mobile-menu-open {
+	    position: absolute;
+	    font-size: 28px;
+	    z-index: 1;
+	    right: 0;
+	}
+	header .navbar-nav .nav-link {
+	    margin:0 0 0 20px!important;
+	    font-size: 16px!important;
+	}
+	header ul.navbar-nav li+li {
+ 	   margin: 20px 0 0 0;
+	}
+	.cart-btn .notification{
+		right: -35px;
+	}
+	.search-bar {
+	    padding-top: 74px;
+	}
+	.search{
+		position: absolute;
+    	right: 42px;
+	}
+	.sidenav {
+	  height: 100%;
+	  width: 100%;
+	  max-width: 250px;
+	  position: fixed;
+	  z-index: 9999999;
+	  top: 0;
+	  left: -100%;
+	  background-color: #202020;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+	  padding-top: 60px;
+	}
+	.sidenav a {
+	    padding: 12px 0;
+	    text-decoration: none;
+	    color: #fff!important;
+	    padding-left: 30px;
+	    display: block;
+	    transition: 0.3s;    
+	}
+	.sidenav a+a {    
+	    border-bottom: 1px solid #ffffff1a;
+	}
+	.sidenav a:hover{
+	  color: #f1f1f1;
+	}
+	.sidenav .closebtn {
+	    position: absolute;
+	    top: 14px;
+	    right: 20px;
+	    font-size: 30px;
+	    margin-left: 50px;
+	    padding: 0;
+	}
+	.sidenav .dropdown-menu{
+		border-radius: 12px;
+		margin-top: 10px!important;
+		margin: auto;
+	}
+	.game-slide button.owl-prev {
+	    left: -12px;
+	}
+	.game-slide button.owl-next {
+	    right: -12px;
+	}
+	.banner-bg{
+		height: 820px;
+	    width: 100%;
+	    object-fit: cover;
+	}
+	h2.sec-title{
+		font-size: 30px;
+	}
+	.right-side{
+		width: 100%;
+		filter: blur(2px);
+	}
+	.field-box{
+		padding: 20px;
+		border-radius: 12px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	section{
+	    padding:30px 0!important;
+	    overflow-y: hidden;
+	}
+	.banner-title{
+		font-size: 24px;
+	}
+	.footer-links li+li {
+	    margin-top: 10px;
+	}
+	.step-no span:after {
+	    content: "";
+	    height: 100%;
+	    width: 3px;
+	    display: flex;
+	    position: absolute;
+	    background: #cccccc;
+	    right: auto;
+	    left: 28px;
+	    top: 0;
+	    z-index: -1;
+	}
+	.tution-title h6{
+		font-size: 14px;
+	}
+}
+
+@media( min-width:  767px){
+	.footer-links li+li {
+	    margin-left: 18px;
+	}
+	.right-txt span{
+	    left: 5px;
+	}
+	.left-txt span{
+	    right: 5px;
+	}
+}
+@media(max-width:  1024px){
+	#galleryTab{
+		overflow-x: auto;
+	    overflow-y: hidden;
+	    -ms-overflow-style: -ms-autohiding-scrollbar;
+	    -webkit-overflow-scrolling: touch;
+	    white-space: nowrap;
+	    justify-content: start;
+	}
+	#galleryTab .btn{
+		width: auto;
+	}
+}
+@media screen and (max-width: 460px){
+	.navbar-brand img {
+	     max-height: 40px; 
+	}
+	.banner-title{
+		font-size: 20px!important;
+	}
+	.book-form .input-group{
+		height: auto!important;
+	}
+	.book-btn{
+		width: 100%;
+	}
+	.cat-img{
+		height: 120px;
+	}
+}

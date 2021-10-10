@@ -1,0 +1,110 @@
+@media(min-width:  1400px){
+    #sidebar {
+        min-width: 320px;
+        max-width: 320px;
+    }
+    #content{
+        margin-left: 320px;
+        width: calc(100% - 320px);
+    }
+}
+@media(max-width:  1399px){
+    #content{
+        margin-left: 280px;
+        width: calc(100% - 280px);
+    }
+}
+@media(min-width: 280px) {
+    .navbar-expand-lg .navbar-nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+}
+@media (max-width: 1024px) {
+    #content {
+        margin-left:0px; 
+        width: 100%;
+    }
+    #sidebar {
+        min-width: 0;
+        max-width: 0;
+        position: fixed;
+        text-align: left!important;
+        padding: 0;
+        margin-left: 0px!important;
+    }
+    #sidebarCollapse{
+        display: block!important;
+    }
+    a.closebtn {
+        position: absolute;
+        top: 0;
+        right: -40px;
+        font-size: 36px;
+        background: #0d9247;
+        width: 40px;
+        height: 40px;
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    #sidebar.active {
+        min-width: 275px;
+        max-width: 275px;
+        text-align: center;
+        transition: all .3s;
+    }
+    #sidebar.active .logo{
+        padding:20px;
+    }
+    #sidebar.active .logo img {
+        margin: 0;
+    }
+    #sidebar ul.list-unstyled.components.mb-5,  #sidebar .logo {
+        display: none;
+    }
+    .credit-box {
+        padding: 14px 0;
+    }
+}
+@media(min-width:  992px){
+    .title-set{
+        padding-left: 66px;
+    }
+}
+@media(max-width: 767px){
+    .status-btn ul{
+  		justify-content: center;
+  		margin-bottom: 20px;
+  		position: relative;
+  	}
+    .login-box{
+        max-width: 320px;
+        width: 100%;
+    }
+}
+@media(min-width: 992px){
+    #footer-bar{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media(min-width: 1025px){
+    #sidebar.active{
+    min-width:0!important;
+    max-width:0!important;
+    overflow:hidden;
+}
+}
