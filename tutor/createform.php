@@ -3,11 +3,6 @@
 	if( ( !isset($_SESSION['usrname']) || $_SESSION['usrname'] == '' ) && ( !isset($_SESSION['usrid']) || $_SESSION['usrid'] == '' ) ){
         header( 'location:'. $baseUrl );
     }
-// echo '<pre>';
-// print_r($_SESSION);
-// echo '</pre>';
-// exit();
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -77,7 +72,19 @@
 					                  <div class="col-lg-4 col-md-6 mb-2">
 					                      <div class="form-group">
 					                      	<h6 class="font-weight-bold mb-2">Student Name* </h6>
-					                        <input type="text" class="form-control" name="student_name" placeholder="Enter Student Name" required>
+					                        <!-- <input type="text" class="form-control" name="student_name" placeholder="Enter Student Name" required> -->
+											<?php 
+												 $sql = "SELECT * FROM tbl_regusers where utype = '1'";
+												 $result = mysqli_query($con,$sql);
+											?>
+											<select class="form-control" name="student_name">
+												<option>Select Student</option>
+													<?php 
+														foreach($result as $key=>$value){
+															echo '<option value="'.$value['id'].'">'.$value['fname'].'</option>';
+														}
+													?>
+											</select>
 					                      </div>
 					                  </div>
 					                  <div class="col-lg-4 col-md-6 mb-2">
@@ -110,13 +117,13 @@
 					                        <input type="text" class="form-control" name="totaltime_session" required>
 					                      </div>
 					                  </div>
-					                  <div class="col-lg-4 col-md-6 mb-2">
+					                  <div class="col-lg-6 col-md-6 mb-2">
 					                      <div class="form-group">
 					                      	<h6 class="font-weight-bold mb-2">Total Hours of sessions done till date*</h6>
 					                        <input type="text" class="form-control" name="totalhours_session" required>
 					                      </div>
 					                  </div>
-					                  <div class="col-lg-8 col-md-6 mb-2">
+					                  <div class="col-lg-6 col-md-6 mb-2">
 					                      <div class="form-group">
 					                      	<h6 class="font-weight-bold mb-2">What was taught in the session</h6>
 					                        <input type="text" class="form-control" name="taught_session" placeholder="">

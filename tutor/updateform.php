@@ -62,18 +62,18 @@
 						<div class="side-content pt-3 pb-0">
 							<?php 
 
-                            echo '<pre>';
-                            print_r($_GET);
-                            echo '</pre>';
+                            // echo '<pre>';
+                            // print_r($_GET);
+                            // echo '</pre>';
                             $id = $_GET['id'];
                             $user_id = $_SESSION['usrid'];
 	                        $sql = "SELECT * FROM `tutor_form_master` where tutor_id = ".$user_id." AND id = ".$id." AND status = '
                             1' ";
                             $result = mysqli_query($con,$sql);
                             $row = mysqli_fetch_assoc($result);                          
-                            echo '<pre>';
-                            print_r($row);
-                            echo '</pre>';
+                            // echo '<pre>';
+                            // print_r($row);
+                            // echo '</pre>';
                             // exit();
 							?>
 							<div class="wizard theme-shadow bg-white p-4 rounded">
